@@ -11,7 +11,7 @@ jobs:
         run: |
           python -m ensurepip --upgrade
           python -m pip install pylint
-          pylint app.py
+          pylint main.py
   build:
     name: Build
     runs-on: ubuntu-latest
