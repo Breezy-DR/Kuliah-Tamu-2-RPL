@@ -24,7 +24,7 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
-        source: "app.py"
+        source: "main.py"
         target: "/home/rplcicd/13521048/"
     - name: kill existing flask app
       continue-on-error: true
